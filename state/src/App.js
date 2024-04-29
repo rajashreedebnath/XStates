@@ -167,7 +167,7 @@ export default function StateApp() {
       {selectedCity && (
 
         <h2 className='result'>
-          You Selected <span className='highlight'>{selectedCity}</span>{', '}
+          You selected <span className='highlight'>{selectedCity}</span>{', '}
           <span className='fade'>{selectedState}</span>{', '}
           <span className='fade'>{selectedCountry}</span>
         </h2>
